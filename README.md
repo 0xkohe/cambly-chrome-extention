@@ -1,8 +1,5 @@
 # cambly-chrome-extention
 
-
-Sure thing! Here’s a description suitable for GitHub:
-
 Description
 This Chrome extension enhances your experience on Cambly by enabling note-taking for each tutor. When you visit a tutor's profile page, a text area appears where you can write notes about that specific tutor. These notes are automatically saved to your local storage, so next time you visit the same tutor's page, your previous notes will be displayed.
 
