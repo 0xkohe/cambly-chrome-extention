@@ -9,7 +9,7 @@ $(document).ready(function () {
         // Execute the process only if the target element is found
         if (targetDiv) {
             // Add the text area
-            targetDiv.insertAdjacentHTML('beforeend', '<textarea id="myTextArea" placeholder="Enter text here" style="width: 100%; margin-top: 10px; resize: both; overflow: auto; field-sizing: content;"></textarea>');
+            targetDiv.insertAdjacentHTML('beforeend', '<textarea id="myTextArea" placeholder="Enter text here" style="width: 80%; margin-top: 10px; resize: both; overflow: auto; field-sizing: content;"></textarea>');
 
             // Check if the current URL matches the specified format (ignoring GET parameters)
             const urlPattern = /^https:\/\/www\.cambly\.com\/en\/student\/tutors\/(\w+)/;
