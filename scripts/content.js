@@ -1,6 +1,7 @@
 $(document).ready(function () {
     // Get the target element to observe
-    const targetSelector = "div._box_xcjsm_1._alignItemscenter_xcjsm_18._gray200BackgroundColor_15hp2_285._column_xcjsm_213._none_xcjsm_126._flexLarge_xcjsm_183._paddingX5_1aqye_27._paddingY8_1aqye_107._justifyContentcenter_xcjsm_297";
+	//
+    const targetSelector = "#root > div > div:nth-of-type(2) > div:nth-of-type(2)"
 
     // Set up the MutationObserver
     const observer = new MutationObserver((mutations, observer) => {
